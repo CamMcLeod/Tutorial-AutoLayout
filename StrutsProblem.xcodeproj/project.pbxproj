@@ -15,6 +15,10 @@
 		627C56FA22AC3744006A87CC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 627C56F922AC3744006A87CC /* main.m */; };
 		627C570422AC3744006A87CC /* StrutsProblemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 627C570322AC3744006A87CC /* StrutsProblemTests.m */; };
 		627C570F22AC3744006A87CC /* StrutsProblemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 627C570E22AC3744006A87CC /* StrutsProblemUITests.m */; };
+		627C572022AC47B8006A87CC /* Brad Cox.png in Resources */ = {isa = PBXBuildFile; fileRef = 627C571C22AC47B8006A87CC /* Brad Cox.png */; };
+		627C572122AC47B8006A87CC /* Ray.png in Resources */ = {isa = PBXBuildFile; fileRef = 627C571D22AC47B8006A87CC /* Ray.png */; };
+		627C572222AC47B8006A87CC /* Dennis Ritchie.png in Resources */ = {isa = PBXBuildFile; fileRef = 627C571E22AC47B8006A87CC /* Dennis Ritchie.png */; };
+		627C572322AC47B8006A87CC /* Matthijs.png in Resources */ = {isa = PBXBuildFile; fileRef = 627C571F22AC47B8006A87CC /* Matthijs.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,10 @@
 		627C570A22AC3744006A87CC /* StrutsProblemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrutsProblemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		627C570E22AC3744006A87CC /* StrutsProblemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrutsProblemUITests.m; sourceTree = "<group>"; };
 		627C571022AC3744006A87CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		627C571C22AC47B8006A87CC /* Brad Cox.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Brad Cox.png"; sourceTree = "<group>"; };
+		627C571D22AC47B8006A87CC /* Ray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ray.png; sourceTree = "<group>"; };
+		627C571E22AC47B8006A87CC /* Dennis Ritchie.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dennis Ritchie.png"; sourceTree = "<group>"; };
+		627C571F22AC47B8006A87CC /* Matthijs.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Matthijs.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +118,10 @@
 				627C56F522AC3744006A87CC /* LaunchScreen.storyboard */,
 				627C56F822AC3744006A87CC /* Info.plist */,
 				627C56F922AC3744006A87CC /* main.m */,
+				627C571C22AC47B8006A87CC /* Brad Cox.png */,
+				627C571E22AC47B8006A87CC /* Dennis Ritchie.png */,
+				627C571F22AC47B8006A87CC /* Matthijs.png */,
+				627C571D22AC47B8006A87CC /* Ray.png */,
 			);
 			path = StrutsProblem;
 			sourceTree = "<group>";
@@ -237,6 +249,10 @@
 			files = (
 				627C56F722AC3744006A87CC /* LaunchScreen.storyboard in Resources */,
 				627C56F422AC3744006A87CC /* Assets.xcassets in Resources */,
+				627C572222AC47B8006A87CC /* Dennis Ritchie.png in Resources */,
+				627C572022AC47B8006A87CC /* Brad Cox.png in Resources */,
+				627C572322AC47B8006A87CC /* Matthijs.png in Resources */,
+				627C572122AC47B8006A87CC /* Ray.png in Resources */,
 				627C56F222AC3743006A87CC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
