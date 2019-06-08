@@ -20,41 +20,8 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" heightSizable="YES" flexibleMaxY="YES"/>
-                        <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lqI-uL-B1y">
-                                <rect key="frame" x="210" y="40" width="90" height="244"/>
-                                <color key="backgroundColor" red="0.99953407049999998" green="0.98835557699999999" blue="0.47265523669999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Xhg-3C-peu">
-                                <rect key="frame" x="20" y="304" width="280" height="244"/>
-                                <color key="backgroundColor" red="0.46202266219999999" green="0.83828371759999998" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mei-Gv-a8o">
-                                <rect key="frame" x="20" y="40" width="90" height="244"/>
-                                <color key="backgroundColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
-                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstAttribute="bottom" secondItem="Xhg-3C-peu" secondAttribute="bottom" constant="20" id="2vj-Ub-nTx"/>
-                            <constraint firstItem="Xhg-3C-peu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="7T5-9A-7X1"/>
-                            <constraint firstItem="lqI-uL-B1y" firstAttribute="height" secondItem="mei-Gv-a8o" secondAttribute="height" id="LXO-30-QRP"/>
-                            <constraint firstItem="mei-Gv-a8o" firstAttribute="top" secondItem="9Xd-dB-NFs" secondAttribute="bottom" constant="20" id="WtX-ou-OP7"/>
-                            <constraint firstItem="lqI-uL-B1y" firstAttribute="top" secondItem="mei-Gv-a8o" secondAttribute="top" id="aKR-7l-3J6"/>
-                            <constraint firstItem="mei-Gv-a8o" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="20" id="bGE-wy-zqF"/>
-                            <constraint firstItem="lqI-uL-B1y" firstAttribute="leading" secondItem="mei-Gv-a8o" secondAttribute="trailing" constant="100" id="f5G-KT-adI"/>
-                            <constraint firstItem="lqI-uL-B1y" firstAttribute="trailing" secondItem="Xhg-3C-peu" secondAttribute="trailing" id="fq5-8I-wBX"/>
-                            <constraint firstItem="Xhg-3C-peu" firstAttribute="top" secondItem="mei-Gv-a8o" secondAttribute="bottom" constant="20" id="mal-fG-AjL"/>
-                            <constraint firstItem="lqI-uL-B1y" firstAttribute="width" secondItem="mei-Gv-a8o" secondAttribute="width" id="oxZ-lA-C0J"/>
-                            <constraint firstItem="Xhg-3C-peu" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" constant="-40" id="vrp-tx-0oU"/>
-                            <constraint firstItem="lqI-uL-B1y" firstAttribute="height" secondItem="Xhg-3C-peu" secondAttribute="height" id="wnH-iW-M8T"/>
-                        </constraints>
                     </view>
-                    <connections>
-                        <outlet property="bottomView" destination="Xhg-3C-peu" id="Mkb-PF-yMm"/>
-                        <outlet property="topLeftView" destination="mei-Gv-a8o" id="W0e-UA-mzQ"/>
-                        <outlet property="topRightView" destination="lqI-uL-B1y" id="EMT-SD-88Z"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

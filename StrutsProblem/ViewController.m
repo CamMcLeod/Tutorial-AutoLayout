@@ -10,9 +10,6 @@
 
 @interface ViewController ()
 
-@property (weak, nonatomic) IBOutlet UIView *topLeftView;
-@property (weak, nonatomic) IBOutlet UIView *topRightView;
-@property (weak, nonatomic) IBOutlet UIView *bottomView;
 @end
 
 @implementation ViewController
